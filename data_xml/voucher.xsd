@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/vouchers"
+        xmlns:tns="http://www.example.com/vouchers"
+        elementFormDefault="qualified">
+
+    <element name="voucher" type="tns:Voucher" abstract="true"/>
+    <element name="excursion" type="tns:Excursion" substitutionGroup="tns:voucher"/>
+    <element name="relaxation" type="tns:Relaxation" substitutionGroup="tns:voucher"/>
+
+    <element name="vouchers">
+        <complexType>
+            <sequence>
+                <element ref="tns:voucher" minOccurs="1" maxOccurs="100"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Voucher">
+        <sequence>
+            <element name="days" type="positiveInteger"/>
+            <element name="hotel" type="tns:Hotel"/>
+            <element name="date-start" type="date"/>
+        </sequence>
+        <attribute name="rest-place" type="tns:Rest-place" use="required"/>
+        <attribute name="transport" use="optional" default="bus">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="bus"/>
+                    <enumeration value="airplane"/>
+                    <enumeration value="car"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="cost" use="required">
+            <simpleType>
+                <restriction base="positiveInteger">
+                    <minInclusive value="100"/>
+                    <maxInclusive value="2500"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="Rest-place">
+        <attribute name="country" type="tns:Country"/>
+        <attribute name="city" type="tns:Country"/>
+    </complexType>
+    <simpleType name="Country">
+        <restriction base="string">
+            <pattern value="[a-zA-Z]{2,15}"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="Hotel">
+        <sequence>
+            <element name="stars">
+                <simpleType>
+                    <restriction base="integer">
+                        <enumeration value="3"/>
+                        <enumeration value="4"/>
+                        <enumeration value="5"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="meat">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="RO"/>
+                        <enumeration value="BB"/>
+                        <enumeration value="HB"/>
+                        <enumeration value="FB"/>
+                        <enumeration value="AI"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="room">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="single"/>
+                        <enumeration value="double"/>
+                        <enumeration value="triple"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="air-conditioning" type="boolean"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="Relaxation">
+        <complexContent>
+            <extension base="tns:Voucher">
+                <attribute name="relax-procedures" type="string"/>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Excursion">
+        <complexContent>
+            <extension base="tns:Voucher">
+                <attribute name="moving" type="positiveInteger"/>
+                <attribute name="excursion-type" use="optional" default="different">
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="different"/>
+                            <enumeration value="history"/>
+                            <enumeration value="nature"/>
+                            <enumeration value="food"/>
+                        </restriction>
+                    </simpleType>
+                </attribute>
+            </extension>
+        </complexContent>
+    </complexType>
+
+</schema>
