@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vouchers xmlns="http://www.example.com/vouchers">
+
+    <relaxation identifier="re101" rest-place="Turkey" cost="900" transport="airplane">
+        <days>10</days>
+        <hotel>
+            <stars>5</stars>
+            <meat>AI</meat>
+            <room>single</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2020-10-10</date-start>
+        <relax-procedures>spa</relax-procedures>
+        <relax-procedures>hamam</relax-procedures>
+        <relax-procedures>massage</relax-procedures>
+        <relax-procedures>sailing</relax-procedures>
+    </relaxation>
+
+    <excursion identifier="ex01" rest-place="Spain" cost="1000" excursion-type="history" transport="car">
+        <days>14</days>
+        <hotel>
+            <stars>3</stars>
+            <meat>RO</meat>
+            <room>double</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2020-12-01</date-start>
+        <moving>4</moving>
+    </excursion>
+
+    <excursion identifier="ex256" rest-place="Belarus" cost="150">
+        <days>4</days>
+        <hotel>
+            <stars>3</stars>
+            <meat>HB</meat>
+            <room>triple</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2020-11-07</date-start>
+        <moving>6</moving>
+    </excursion>
+
+    <excursion identifier="ex378" rest-place="Greece" cost="1100" transport="airplane" excursion-type="history">
+        <days>12</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>BB</meat>
+            <room>double</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-06-20</date-start>
+        <moving>7</moving>
+    </excursion>
+
+    <excursion identifier="ex490" rest-place="Chile" cost="2500" transport="airplane" excursion-type="nature">
+        <days>9</days>
+        <hotel>
+            <stars>5</stars>
+            <meat>FB</meat>
+            <room>triple</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2020-12-20</date-start>
+        <moving>3</moving>
+    </excursion>
+
+    <excursion identifier="ex523" rest-place="China" cost="2000" transport="car">
+        <days>25</days>
+        <hotel>
+            <stars>3</stars>
+            <meat>RO</meat>
+            <room>double</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2021-04-10</date-start>
+        <moving>10</moving>
+    </excursion>
+
+    <relaxation identifier="re298" rest-place="Egypt" cost="1400" transport="airplane">
+        <days>17</days>
+        <hotel>
+            <stars>5</stars>
+            <meat>AI</meat>
+            <room>single</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2021-03-20</date-start>
+        <relax-procedures>bath</relax-procedures>
+        <relax-procedures>diving</relax-procedures>
+    </relaxation>
+
+    <relaxation identifier="re365" rest-place="Tunisia" cost="1600" transport="airplane">
+        <days>11</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>HB</meat>
+            <room>double</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-02-10</date-start>
+        <relax-procedures>mud baths</relax-procedures>
+        <relax-procedures>spa</relax-procedures>
+    </relaxation>
+
+    <relaxation identifier="re432" rest-place="Thailand" cost="2100" transport="airplane">
+        <days>14</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>BB</meat>
+            <room>single</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2020-11-18</date-start>
+        <relax-procedures>thai massage</relax-procedures>
+        <relax-procedures>rafting</relax-procedures>
+    </relaxation>
+
+    <relaxation identifier="re510" rest-place="Cuba" cost="1900" transport="airplane">
+        <days>9</days>
+        <hotel>
+            <stars>5</stars>
+            <meat>FB</meat>
+            <room>double</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-02-28</date-start>
+        <relax-procedures>spa</relax-procedures>
+        <relax-procedures>massage</relax-procedures>
+        <relax-procedures>sailing</relax-procedures>
+    </relaxation>
+
+    <excursion identifier="exc602" rest-place="Italy" cost="2250" transport="car" excursion-type="history">
+        <days>24</days>
+        <hotel>
+            <stars>3</stars>
+            <meat>HB</meat>
+            <room>triple</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2021-03-23</date-start>
+        <moving>12</moving>
+    </excursion>
+
+    <excursion identifier="exc73" rest-place="USA" cost="2500" transport="airplane">
+        <days>7</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>BB</meat>
+            <room>double</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-05-20</date-start>
+        <moving>7</moving>
+    </excursion>
+
+    <excursion identifier="exc8" rest-place="Argentina" cost="2000" transport="airplane" excursion-type="nature">
+        <days>14</days>
+        <hotel>
+            <stars>5</stars>
+            <meat>RO</meat>
+            <room>triple</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-04-05</date-start>
+        <moving>8</moving>
+    </excursion>
+
+    <relaxation identifier="re600" rest-place="Vietnam" cost="1000" transport="airplane">
+        <days>18</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>AI</meat>
+            <room>double</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-04-16</date-start>
+        <relax-procedures>massage</relax-procedures>
+        <relax-procedures>spa</relax-procedures>
+        <relax-procedures>bath</relax-procedures>
+    </relaxation>
+
+    <relaxation identifier="re789" rest-place="Ukraine" cost="700" transport="car">
+        <days>12</days>
+        <hotel>
+            <stars>3</stars>
+            <meat>RO</meat>
+            <room>single</room>
+            <air-conditioning>false</air-conditioning>
+        </hotel>
+        <date-start>2021-06-30</date-start>
+        <relax-procedures>massage</relax-procedures>
+        <relax-procedures>banana</relax-procedures>
+    </relaxation>
+
+    <relaxation identifier="re895" rest-place="Montenegro" cost="1200" transport="airplane">
+        <days>10</days>
+        <hotel>
+            <stars>4</stars>
+            <meat>RO</meat>
+            <room>triple</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2021-07-05</date-start>
+        <relax-procedures>rafting</relax-procedures>
+        <relax-procedures>rock climbing</relax-procedures>
+    </relaxation>
+
+</vouchers>
