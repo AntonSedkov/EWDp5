@@ -1,6 +1,6 @@
 package by.epam.xmlvoucher.handler;
 
-public enum VoucherXmlTag {
+public enum VoucherXmlTag {                                     // TODO: 03.10.2020 Where to be - entity or handler
     VOUCHERS("vouchers"),
     RELAXATION("relaxation"),
     EXCURSION("excursion"),

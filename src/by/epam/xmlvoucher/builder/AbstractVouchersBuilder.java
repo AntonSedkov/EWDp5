@@ -6,15 +6,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public abstract class AbstractVouchersBuilder {
-    // protected - it is often accessed from a subclass
     protected Set<Voucher> vouchers;
 
     public AbstractVouchersBuilder() {
-        vouchers = new HashSet<Voucher>();
-    }
-
-    public AbstractVouchersBuilder(Set<? extends Voucher> vouchers) {
-        this.vouchers = (Set<Voucher>) vouchers;
+        vouchers = new HashSet<>();
     }
 
     public Set<Voucher> getVouchers() {
@@ -22,4 +17,5 @@ public abstract class AbstractVouchersBuilder {
     }
 
     public abstract void buildSetVouchers(String filename);
+
 }

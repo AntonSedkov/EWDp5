@@ -13,15 +13,15 @@ import java.util.Set;
 
 public class VoucherHandler extends DefaultHandler {
     private Set<Voucher> vouchers;
-    private Voucher current;
+    private Voucher currentVoucher;
     private VoucherXmlTag currentXmlTag;
-    private EnumSet<VoucherXmlTag> withText;
+    private EnumSet<VoucherXmlTag> elementTagsSet;
     private static final String ELEMENT_EXCURSION = VoucherXmlTag.EXCURSION.getValue();
     private static final String ELEMENT_RELAXATION = VoucherXmlTag.RELAXATION.getValue();
 
     public VoucherHandler() {
         vouchers = new HashSet<>();
-        withText = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.DATE_START);
+        elementTagsSet = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.DATE_START);
     }
 
     public Set<Voucher> getVouchers() {
@@ -30,31 +30,31 @@ public class VoucherHandler extends DefaultHandler {
 
     public void startElement(String uri, String localName, String qName, Attributes attrs) {
         if (ELEMENT_EXCURSION.equals(qName)) {
-            current = new Excursion();
-            withText = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.MOVING);
-            current.setIdentifier(attrs.getValue(VoucherXmlTag.IDENTIFIER.getValue()));
-            current.setRestPlace(attrs.getValue(VoucherXmlTag.REST_PLACE.getValue()));
-            current.setCost(Integer.parseInt(attrs.getValue(VoucherXmlTag.COST.getValue())));
+            currentVoucher = new Excursion();
+            elementTagsSet = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.MOVING);
+            currentVoucher.setIdentifier(attrs.getValue(VoucherXmlTag.IDENTIFIER.getValue()));
+            currentVoucher.setRestPlace(attrs.getValue(VoucherXmlTag.REST_PLACE.getValue()));
+            currentVoucher.setCost(Integer.parseInt(attrs.getValue(VoucherXmlTag.COST.getValue())));
             if (attrs.getLength() > 3) {
                 if (attrs.getIndex(VoucherXmlTag.TRANSPORT.getValue()) > -1) {
-                    current.setTransport(attrs.getValue(VoucherXmlTag.TRANSPORT.getValue()));
+                    currentVoucher.setTransport(attrs.getValue(VoucherXmlTag.TRANSPORT.getValue()));
                 }
                 if (attrs.getIndex(VoucherXmlTag.EXCURSION_TYPE.getValue()) > -1) {
-                    ((Excursion) current).setExcursionType(attrs.getValue(VoucherXmlTag.EXCURSION_TYPE.getValue()));
+                    ((Excursion) currentVoucher).setExcursionType(attrs.getValue(VoucherXmlTag.EXCURSION_TYPE.getValue()));
                 }
             }
         } else if (ELEMENT_RELAXATION.equals(qName)) {
-            current = new Relaxation();
-            withText = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.RELAX_PROCEDURES);
-            current.setIdentifier(attrs.getValue(VoucherXmlTag.IDENTIFIER.getValue()));
-            current.setRestPlace(attrs.getValue(VoucherXmlTag.REST_PLACE.getValue()));
-            current.setCost(Integer.parseInt(attrs.getValue(VoucherXmlTag.COST.getValue())));
+            currentVoucher = new Relaxation();
+            elementTagsSet = EnumSet.range(VoucherXmlTag.DAYS, VoucherXmlTag.RELAX_PROCEDURES);
+            currentVoucher.setIdentifier(attrs.getValue(VoucherXmlTag.IDENTIFIER.getValue()));
+            currentVoucher.setRestPlace(attrs.getValue(VoucherXmlTag.REST_PLACE.getValue()));
+            currentVoucher.setCost(Integer.parseInt(attrs.getValue(VoucherXmlTag.COST.getValue())));
             if (attrs.getLength() > 3) {
-                current.setTransport(attrs.getValue(VoucherXmlTag.TRANSPORT.getValue()));
+                currentVoucher.setTransport(attrs.getValue(VoucherXmlTag.TRANSPORT.getValue()));
             }
         } else {
             VoucherXmlTag temp = VoucherXmlTag.valueOf(qName.replace('-', '_').toUpperCase());
-            if (withText.contains(temp)) {
+            if (elementTagsSet.contains(temp)) {
                 currentXmlTag = temp;
             }
         }
@@ -62,7 +62,7 @@ public class VoucherHandler extends DefaultHandler {
 
     public void endElement(String uri, String localName, String qName) {
         if (ELEMENT_EXCURSION.equals(qName) || ELEMENT_RELAXATION.equals(qName)) {
-            vouchers.add(current);
+            vouchers.add(currentVoucher);
         }
     }
 
@@ -70,15 +70,15 @@ public class VoucherHandler extends DefaultHandler {
         String data = new String(ch, start, length).strip();
         if (currentXmlTag != null) {
             switch (currentXmlTag) {
-                case DAYS -> current.setDays(Integer.parseInt(data));
-                case HOTEL -> current.getHotel();
-                case STARS -> current.getHotel().setStars(Integer.parseInt(data));
-                case MEAT -> current.getHotel().setMeat(data);
-                case ROOM -> current.getHotel().setRoomSize(data);
-                case AIR_CONDITIONING -> current.getHotel().setAirConditioning(Boolean.parseBoolean(data));
-                case DATE_START -> current.setDate(LocalDate.parse(data));
-                case MOVING -> ((Excursion) current).setMoving(Integer.parseInt(data));
-                case RELAX_PROCEDURES -> ((Relaxation) current).addRelaxProcedure(data);
+                case DAYS -> currentVoucher.setDays(Integer.parseInt(data));
+                case HOTEL -> currentVoucher.getHotel();
+                case STARS -> currentVoucher.getHotel().setStars(Integer.parseInt(data));
+                case MEAT -> currentVoucher.getHotel().setMeat(data);
+                case ROOM -> currentVoucher.getHotel().setRoomSize(data);
+                case AIR_CONDITIONING -> currentVoucher.getHotel().setAirConditioning(Boolean.parseBoolean(data));
+                case DATE_START -> currentVoucher.setDate(LocalDate.parse(data));
+                case MOVING -> ((Excursion) currentVoucher).setMoving(Integer.parseInt(data));
+                case RELAX_PROCEDURES -> ((Relaxation) currentVoucher).addRelaxProcedure(data);
                 default -> throw new EnumConstantNotPresentException(
                         currentXmlTag.getDeclaringClass(), currentXmlTag.name());
             }

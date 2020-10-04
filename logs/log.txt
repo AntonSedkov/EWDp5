@@ -45,3 +45,311 @@
 2020-10-03 17:47:27 [main] INFO  VouchersStaxBuilder:43 - StAX has been configured.
 2020-10-03 17:50:54 [main] INFO  VouchersStaxBuilder:43 - StAX has been configured.
 2020-10-03 18:13:45 [main] INFO  VouchersStaxBuilder:43 - StAX has been configured.
+2020-10-04 01:34:57 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 01:35:44 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 01:36:47 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 01:36:47 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 01:37:02 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 01:37:24 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 01:40:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 01:40:32 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 01:40:32 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 01:40:32 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:03:47 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:03:47 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:03:47 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:03:47 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:03:47 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:03:47 [main] ERROR VoucherXMLValidator:39 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:03:47 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:03:47 [main] FATAL VoucherErrorHandler:20 - 4 : 28 - Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 02:03:47 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:03:47 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+2020-10-04 02:03:47 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-attribute.3: The value '90000' of attribute 'cost' on element 'relaxation' is not valid with respect to its type, '#AnonType_costVoucher'.
+2020-10-04 02:03:47 [main] ERROR VoucherErrorHandler:16 - 6 : 21 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":date-start}'. One of '{"http://www.example.com/vouchers":hotel}' is expected.
+2020-10-04 02:03:47 [main] ERROR VoucherErrorHandler:16 - 9 : 19 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":room}'. One of '{"http://www.example.com/vouchers":meat}' is expected.
+2020-10-04 02:03:47 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucherBV.xml match XSD: data/voucher.xsd
+2020-10-04 02:06:11 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:06:11 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:06:11 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:06:11 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:06:11 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:06:11 [main] ERROR VoucherXMLValidator:39 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:06:11 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:06:12 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:06:12 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucherBV.xml is not correct or valid
+2020-10-04 02:09:09 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:09:09 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:09:09 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:09:09 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:09:09 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:09:09 [main] ERROR VoucherXMLValidator:39 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:09:09 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:09:09 [main] FATAL VoucherErrorHandler:20 - 4 : 28 - Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 02:09:09 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:09:09 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+2020-10-04 02:09:09 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-attribute.3: The value '90000' of attribute 'cost' on element 'relaxation' is not valid with respect to its type, '#AnonType_costVoucher'.
+2020-10-04 02:09:09 [main] ERROR VoucherErrorHandler:16 - 6 : 21 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":date-start}'. One of '{"http://www.example.com/vouchers":hotel}' is expected.
+2020-10-04 02:09:09 [main] ERROR VoucherErrorHandler:16 - 9 : 19 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":room}'. One of '{"http://www.example.com/vouchers":meat}' is expected.
+2020-10-04 02:09:09 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucherBV.xml match XSD: data/voucher.xsd
+2020-10-04 02:10:07 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:10:07 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:10:07 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:10:07 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:10:07 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:10:07 [main] ERROR VoucherXMLValidator:40 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:10:07 [main] WARN  VoucherXMLValidator:37 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:10:07 [main] WARN  VoucherXMLValidator:37 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:10:07 [main] WARN  VoucherXMLValidator:37 - XML-file: data/voucherBV.xml is not correct or valid
+2020-10-04 02:12:08 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:12:08 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:12:08 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:12:08 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:12:09 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:12:09 [main] ERROR VoucherXMLValidator:39 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:12:09 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:12:09 [main] FATAL VoucherErrorHandler:20 - 4 : 28 - Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 02:12:09 [main] WARN  VoucherXMLValidator:36 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:12:09 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+2020-10-04 02:12:09 [main] ERROR VoucherErrorHandler:16 - 4 : 90 - cvc-attribute.3: The value '90000' of attribute 'cost' on element 'relaxation' is not valid with respect to its type, '#AnonType_costVoucher'.
+2020-10-04 02:12:09 [main] ERROR VoucherErrorHandler:16 - 6 : 21 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":date-start}'. One of '{"http://www.example.com/vouchers":hotel}' is expected.
+2020-10-04 02:12:09 [main] ERROR VoucherErrorHandler:16 - 9 : 19 - cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.example.com/vouchers":room}'. One of '{"http://www.example.com/vouchers":meat}' is expected.
+2020-10-04 02:12:09 [main] INFO  VoucherXMLValidator:33 - XML-file: data/voucherBV.xml match XSD: data/voucher.xsd
+2020-10-04 02:13:47 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:13:47 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:13:47 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:13:47 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:13:48 [main] INFO  VoucherXMLValidator:32 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:13:48 [main] ERROR VoucherXMLValidator:38 - XML-file: data/voucher3.xml is not find
+java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xml (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:212) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:154) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:109) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:860) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:176) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:115) ~[?:?]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:?]
+	at by.epam.xmlvoucher.validator.VoucherXMLValidator.isCorrectXML(VoucherXMLValidator.java:31) [EWDp_4/:?]
+	at by.epam.xmlvoucher.MainBuilderXml.main(MainBuilderXml.java:33) [EWDp_4/:?]
+2020-10-04 02:13:48 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucher.xml is not correct or valid
+org.xml.sax.SAXParseException: schema_reference.4: Failed to read schema document 'file:/E:/Epam_Web/Course.Two/EWDp_4/data/voucher3.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(XSDHandler.java:4257) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaError(XSDHandler.java:4240) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument1(XSDHandler.java:2531) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2238) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:588) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:617) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:576) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(XMLSchemaFactory.java:276) ~[?:?]
+	at javax.xml.validation.SchemaFactory.newSchema(SchemaFactory.java:669) ~[?:?]
+	at javax.xml.validation.SchemaFactory.newSchema(SchemaFactory.java:685) ~[?:?]
+	at by.epam.xmlvoucher.validator.VoucherXMLValidator.isCorrectXML(VoucherXMLValidator.java:28) [EWDp_4/:?]
+	at by.epam.xmlvoucher.MainBuilderXml.main(MainBuilderXml.java:35) [EWDp_4/:?]
+Caused by: java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xsd (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:212) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:154) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:109) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:593) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:696) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(SchemaDOMParser.java:530) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2226) ~[?:?]
+	... 9 more
+2020-10-04 02:13:48 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBF.xml is not correct or valid
+org.xml.sax.SAXParseException: Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:851) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanAttribute(XMLNSDocumentScannerImpl.java:447) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:250) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:176) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:115) ~[?:?]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:?]
+	at by.epam.xmlvoucher.validator.VoucherXMLValidator.isCorrectXML(VoucherXMLValidator.java:31) [EWDp_4/:?]
+	at by.epam.xmlvoucher.MainBuilderXml.main(MainBuilderXml.java:37) [EWDp_4/:?]
+2020-10-04 02:13:48 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBV.xml is not correct or valid
+org.xml.sax.SAXParseException: cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:511) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3587) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processOneAttribute(XMLSchemaValidator.java:3107) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processAttributes(XMLSchemaValidator.java:3051) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2286) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:829) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:176) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:115) ~[?:?]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:?]
+	at by.epam.xmlvoucher.validator.VoucherXMLValidator.isCorrectXML(VoucherXMLValidator.java:31) [EWDp_4/:?]
+	at by.epam.xmlvoucher.MainBuilderXml.main(MainBuilderXml.java:39) [EWDp_4/:?]
+2020-10-04 02:14:43 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:14:43 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:14:43 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:14:43 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:14:44 [main] INFO  VoucherXMLValidator:32 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:14:44 [main] ERROR VoucherXMLValidator:38 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:14:44 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucher.xml is not correct or valid
+java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xsd (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:212) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:154) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:109) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:652) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:593) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:696) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(SchemaDOMParser.java:530) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2226) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:588) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:617) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:576) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(XMLSchemaFactory.java:276) ~[?:?]
+	at javax.xml.validation.SchemaFactory.newSchema(SchemaFactory.java:669) ~[?:?]
+	at javax.xml.validation.SchemaFactory.newSchema(SchemaFactory.java:685) ~[?:?]
+	at by.epam.xmlvoucher.validator.VoucherXMLValidator.isCorrectXML(VoucherXMLValidator.java:28) [EWDp_4/:?]
+	at by.epam.xmlvoucher.MainBuilderXml.main(MainBuilderXml.java:35) [EWDp_4/:?]
+2020-10-04 02:14:44 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBF.xml is not correct or valid
+2020-10-04 02:14:44 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBV.xml is not correct or valid
+2020-10-04 02:18:37 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:18:37 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:18:37 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:18:37 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:18:37 [main] INFO  VoucherXMLValidator:32 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:19:12 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:19:12 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:19:12 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:19:13 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:19:13 [main] INFO  VoucherXMLValidator:32 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:19:13 [main] ERROR VoucherXMLValidator:38 - XML-file: data/voucher3.xml is not find
+2020-10-04 02:19:13 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucher.xml is not correct or valid
+2020-10-04 02:19:39 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:19:39 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:19:39 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:19:39 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 02:19:39 [main] INFO  VoucherXMLValidator:32 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:19:39 [main] ERROR VoucherXMLValidator:38 - XML-file: data/voucher3.xml is not find java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xml (Не удается найти указанный файл)
+2020-10-04 02:19:39 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucher.xml is not correct or valid org.xml.sax.SAXParseException; schema_reference.4: Failed to read schema document 'file:/E:/Epam_Web/Course.Two/EWDp_4/data/voucher3.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+2020-10-04 02:19:39 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBF.xml is not correct or valid org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBF.xml; lineNumber: 4; columnNumber: 28; Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 02:19:39 [main] WARN  VoucherXMLValidator:35 - XML-file: data/voucherBV.xml is not correct or valid org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBV.xml; lineNumber: 4; columnNumber: 90; cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+2020-10-04 02:25:56 [main] INFO  VoucherXMLValidator:31 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 02:29:41 [main] ERROR VoucherXMLValidator:37 - XML-file: data/voucher3.xml is not find. Exception: java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xml (Не удается найти указанный файл)
+2020-10-04 02:29:41 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucher.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; schema_reference.4: Failed to read schema document 'file:/E:/Epam_Web/Course.Two/EWDp_4/data/voucher3.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+2020-10-04 02:29:41 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucherBF.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBF.xml; lineNumber: 4; columnNumber: 28; Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 02:29:41 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucherBV.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBV.xml; lineNumber: 4; columnNumber: 90; cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.
+2020-10-04 02:39:30 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:39:30 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:39:30 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:39:30 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:41:21 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:41:21 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:41:21 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:41:21 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:56:35 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:56:35 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:59:55 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 02:59:55 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 02:59:55 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 02:59:55 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:00:12 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:00:12 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:00:12 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:00:12 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:21:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:22:34 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:24:06 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:25:08 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:25:21 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:27:03 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:27:09 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:27:24 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:04 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:04 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:04 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:04 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:04 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:29:28 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:30:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:30:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:30:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:30:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:30:32 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:32:53 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:32:53 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:32:53 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:32:53 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:32:53 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:34:28 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:34:28 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:34:28 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:34:28 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:34:28 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:13 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherEventStaxBuilder:37 - Event StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersDomBuilder:35 - DOM has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersSaxBuilder:28 - SAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VouchersStreamStaxBuilder:35 - Stream StAX has been configured.
+2020-10-04 03:35:14 [main] INFO  VoucherXMLValidator:31 - XML-file: data/voucher.xml match XSD: data/voucher.xsd
+2020-10-04 03:35:14 [main] ERROR VoucherXMLValidator:37 - XML-file: data/voucher3.xml is not find. Exception: java.io.FileNotFoundException: E:\Epam_Web\Course.Two\EWDp_4\data\voucher3.xml (Не удается найти указанный файл)
+2020-10-04 03:35:14 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucher.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; schema_reference.4: Failed to read schema document 'file:/E:/Epam_Web/Course.Two/EWDp_4/data/voucher3.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>.
+2020-10-04 03:35:14 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucherBF.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBF.xml; lineNumber: 4; columnNumber: 28; Open quote is expected for attribute "identifier" associated with an  element type  "relaxation".
+2020-10-04 03:35:14 [main] WARN  VoucherXMLValidator:34 - XML-file: data/voucherBV.xml is not correct or valid. Exception: org.xml.sax.SAXParseException; systemId: file:///E:/Epam_Web/Course.Two/EWDp_4/data/voucherBV.xml; lineNumber: 4; columnNumber: 90; cvc-maxInclusive-valid: Value '90000' is not facet-valid with respect to maxInclusive '2500' for type '#AnonType_costVoucher'.

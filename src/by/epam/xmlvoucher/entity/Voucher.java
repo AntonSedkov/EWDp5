@@ -92,9 +92,7 @@ public abstract class Voucher {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Voucher voucher = (Voucher) o;
-
         if (cost != voucher.cost) return false;
         if (days != voucher.days) return false;
         if (identifier != null ? !identifier.equals(voucher.identifier) : voucher.identifier != null) return false;

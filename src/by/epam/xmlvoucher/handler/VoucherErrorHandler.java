@@ -23,4 +23,5 @@ public class VoucherErrorHandler implements ErrorHandler {
     private String getLineColumnNumber(SAXParseException e) {
         return e.getLineNumber() + " : " + e.getColumnNumber();
     }
+
 }

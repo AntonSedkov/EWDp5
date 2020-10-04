@@ -3,7 +3,6 @@ package by.epam.xmlvoucher.entity;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringJoiner;
 
 public class Relaxation extends Voucher {
     private List<String> relaxProcedures;
@@ -55,4 +54,5 @@ public class Relaxation extends Voucher {
         stringBuilder.append(" relaxProcedures=").append(relaxProcedures);
         return stringBuilder.toString();
     }
+
 }

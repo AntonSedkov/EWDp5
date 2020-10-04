@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vouchers xmlns="http://www.example.com/vouchers">
+
+    <relaxation identifier=re101 rest-place="Turkey" cost="900" transport="airplane">
+        <days>10<^days>
+        <hotel>
+            <stars>5</stars>
+            <meat>AI</meat>
+            <room>single</room>
+            <air-conditioning>true</air-conditioning>
+        </hotel>
+        <date-start>2020-10-10<date-start>
+        <relax-procedures>spa</relax-procedures>
+        <relax-procedures>hamam</relax-procedures>
+        <relax-proceduresmassage</relax-procedures>
+        <relax-procedures>sailing</relax-procedures>
+    </relaxation>
+
+</vouchers>
