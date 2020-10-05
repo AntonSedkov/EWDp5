@@ -17,7 +17,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.LocalDate;
 
-public class VouchersStreamStaxBuilder extends AbstractVouchersBuilder {    // TODO: 03.10.2020 Is it  "cursor API" by StreamReader
+public class VouchersStreamStaxBuilder extends AbstractVouchersBuilder {
     private static final Logger logger = LogManager.getLogger(VouchersStreamStaxBuilder.class);
     private final XMLInputFactory inputFactory;
 

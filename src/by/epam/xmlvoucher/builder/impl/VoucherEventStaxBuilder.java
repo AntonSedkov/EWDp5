@@ -20,7 +20,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;
 
-public class VoucherEventStaxBuilder extends AbstractVouchersBuilder {  // TODO: 03.10.2020 Is it "iterator API" by EventReader
+public class VoucherEventStaxBuilder extends AbstractVouchersBuilder {
     private static final Logger logger = LogManager.getLogger(VoucherEventStaxBuilder.class);
     private XMLInputFactory inputFactory;
 
