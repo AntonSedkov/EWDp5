@@ -89,7 +89,7 @@ public class VoucherEventStaxBuilder extends AbstractVouchersBuilder {
                         vouchers.add(voucher);
                     }
                 }
-                reader.close();                                                               // TODO: 03.10.2020 DO NEED CLOSE?
+                reader.close();
             }
         } catch (FileNotFoundException | XMLStreamException e) {
             logger.error(e);

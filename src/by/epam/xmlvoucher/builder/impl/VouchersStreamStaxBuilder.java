@@ -47,7 +47,7 @@ public class VouchersStreamStaxBuilder extends AbstractVouchersBuilder {
                     }
                 }
             }
-            reader.close();                                                             // TODO: 03.10.2020 DO NEED CLOSE?
+            reader.close();
         } catch (XMLStreamException | IOException e) {
             logger.error(e);
         }
